@@ -1,4 +1,69 @@
-body {
-    flex: auto;
+* {
+    box-sizing: border-box;
 }
 
+body {
+    height: 100%;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding: 10px;
+}
+
+#about-me-header {
+    background-color: white;
+    border-right: 1px solid black;
+    padding-right: 20px;
+    display: flex;
+    height: 75px;
+}
+
+.about-me > p {
+    background-color: white;
+    padding-left: 20px;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.work-wrapper {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+.work-row {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.work-hero {
+    height: 300px;
+    margin: 20px;
+}  
+
+.work-second {
+    height: 150px;
+    width: 50%;
+}
+
+#app1 {
+    background-color: aqua;
+}
+
+#app2 {
+    background-color: lightgreen;
+}
+
+#app3 {
+    background-color: pink;
+}

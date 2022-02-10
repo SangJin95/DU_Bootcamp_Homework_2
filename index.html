@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jay's Portfolio</title>
-    <link rel="stylesheet" href="/Assets/styles.css">
+    <link rel="stylesheet" href="./Assets/styles.css">
 </head>
 <body>
     <h1>Jay Lee</h1>
@@ -18,27 +18,32 @@
         </ul>
     </nav>
 
-    <section class = "AboutMe">
-        <h2 id = "Aboutmeheader">About Me</h2>
+    <section class = "about-me">
+        <h2 id = "about-me-header">About Me</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A in vel consequuntur sequi, exercitationem aliquid aliquam debitis maxime autem dolorum?</p>
     </section>
 
-    <section class = "Work">
-        <h2 id = "Workheader">Work</h2>
-        <div class = "Application">App #1</div>
-        <div class = "Application">App #2</div>
-        <div class = "Application">App #3</div>
+    <section class = "work">
+        <h2 id = "workheader">Work</h2>
+        <div class="work-wrapper">
+            <div id="app1" class = "work-hero">App #1</div>
+            <div class="work-row">
+                <div id = "app2" class = "work-second">App #2</div>
+                <div id = "app3" class = "work-second">App #3</div> 
+            </div>
+        
+        </div>
+        
     </section>
 
-    <section class = "Contactinfo">
-        <h id = "Contactheader">Contact Information</h2>
+    <section class = "contact-info">
+        <h id = "contact-header">Contact Information</h2>
         <ul>
             <li><a href="tel:3038702678">303-870-2678</a></li>
             <li><a href="mailto: JaySanginLee@gmail.com">Email</a></li>
             <li><a href="https://github.com/SangJin95">Github</a></li>
         </ul>
     </section>
-
 
 </body>
 </html>
